@@ -25,13 +25,13 @@ export default function App() {
         <Stack.Screen 
           name="HomeScreen" 
           component={HomeScreen} 
-          options={{ title: 'MatchMyPet' }} // Define o título da barra de navegação
+          options={{ title: 'Match My Pet' }} // Define o título da barra de navegação
         />
         {/* Tela Cruzamento Seguro */}
         <Stack.Screen 
           name="CruzamentoSeguro" 
           component={CruzamentoSeguro} 
-          options={{ title: 'CruzamentoSeguro' }} 
+          options={{ title: 'Cruzamento Seguro' }} 
         />
         <Stack.Screen 
         name="Servicos" 
@@ -46,7 +46,7 @@ export default function App() {
         <Stack.Screen 
         name="EmDesenvolvimentoScreen" 
         component={EmDesenvolvimentoScreen} 
-        options={{ title: 'EmDesenvolvimentoScreen' }} 
+        options={{ title: 'Voltar' }} 
         />
       </Stack.Navigator>
     </NavigationContainer>

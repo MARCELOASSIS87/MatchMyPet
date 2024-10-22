@@ -20,12 +20,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.marceloassis502.MatchMyPet"
     },
-    "platforms":["android"],
-    
+    "platforms": [
+      "android"
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "01f4638a-6020-41dd-b2f3-4584ac0069ae"
+      }
     }
   }
 }
